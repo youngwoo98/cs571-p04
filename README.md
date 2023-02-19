@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10194874&assignment_repo_type=AssignmentRepo)
 # CS571-S23 HW04: Badger Book (React!)
 
 Welcome to Badger Book -- React Edition! In HW1, we collected JSON data about you; in HW3 we implemented Badger Book using vanilla HTML, CSS, and JS; and in this assignment, you will create Badger Book as a React App. Just like in HW3, you'll fetch data from the API, present it on a webpage, and provide search functionality to speed up the introduction process! Because this covers the fundamentals of React, *there is no design aspect to this assignment*.
