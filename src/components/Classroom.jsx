@@ -13,8 +13,7 @@ const Classroom = () => {
 
     let nameIn = searchName.toUpperCase().trim();
     let majorIn = searchMajor.toUpperCase().trim();
-    let interestIn = searchInterest.toUpperCase().trim();
-    console.log(nameIn, majorIn, interestIn);    
+    let interestIn = searchInterest.toUpperCase().trim(); 
     
     
     useEffect(() => {
