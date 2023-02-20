@@ -4,6 +4,7 @@ import Student from "./Student"
  
 const Classroom = () => {
 
+
     const [backup, setBackup] = useState([]);
     const [studs, setStuds] = useState([]);
     
@@ -28,6 +29,7 @@ const Classroom = () => {
         setStuds(filtered);
     }, [nameIn, majorIn, interestIn, backup])
 
+
     useEffect(() => {
         fetch('https://cs571.org/s23/hw4/api/students', {
             method: "GET",
@@ -44,7 +46,6 @@ const Classroom = () => {
         .catch(error => console.error(error));
     }, [])
     
-
 
     return <div>
         <Form>
